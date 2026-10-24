@@ -39,7 +39,7 @@ impl Default for Server {
             address: built_in(option_env!("FOREVER_SERVER_ADDRESS"), "127.0.0.1"),
             bnet_port: 1119,
             rest_port: 8081,
-            world_port: 8085,
+            world_port: 18085,
             public_key: STOCK_PUBLIC_KEY.into(),
             region_group: 8,
             website: built_in(option_env!("FOREVER_WEBSITE"), ""),
